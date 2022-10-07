@@ -13,6 +13,5 @@ export default function App() {
 const style= StyleSheet.create({
 fondoApp: {
   backgroundColor: '#333E51',
-  borderRadius: 50
 }
 })

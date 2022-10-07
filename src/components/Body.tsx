@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, ScrollView, TextInput, TouchableOpacity, StyleSheet } from 'react-native'
+import { View, Text, ScrollView, TextInput,StyleSheet} from 'react-native'
 import { Entypo } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
@@ -20,124 +20,87 @@ const Body = () => {
                     </View>
                 </View>
                 <Text style={style.txt}>87 Comments</Text>
-                <View>
+
+                <View style={style.people}>
+                    <Ionicons style={style.peopleComments} name="person-circle-outline" size={24} color="gray" />
+                    <Text style={style.nameComment}>Jose Ramirez. 07 Sep.2022</Text>
+                </View>
+
+                <View style={style.comment}>
                     <Text style={style.comment}>
                         Lorem ipsum dolor sit, amet 😄😄😄 adipisicing elit.
                         Nihil 😄😄 provident distinctio aut. Inventore, 😄😄
                         nihil. Repudiandae ex hic 😄😄 vero esse, aliquid nobis
                         tenetur quasi laboriosam! Aliquid, doloremque impedit!
                     </Text>
+                    <View style={style.lines}>
+                    </View>
                 </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-                <View>
-                    <Text>Hola</Text>
-                </View>
-            </View>
 
+                <View style={style.people}>
+                    <Ionicons style={style.peopleComments} name="person-circle-outline" size={24} color="gray" />
+                    <Text style={style.nameComment}>Jose Ramirez. 07 Sep.2022</Text>
+
+                </View>
+
+                <View style={style.comment}>
+                    <Text style={style.comment}>
+                        Lorem ipsum dolor sit, amet 😄😄😄 adipisicing elit.
+                        Nihil 😄😄 provident distinctio aut. Inventore, 😄😄
+                        nihil. Repudiandae ex hic 😄😄 vero esse, aliquid nobis
+                        tenetur quasi laboriosam! Aliquid, doloremque impedit!
+                    </Text>
+                    <View style={style.lines}>
+                    </View>
+                </View>
+
+                <View style={style.people}>
+                    <Ionicons style={style.peopleComments} name="person-circle-outline" size={24} color="gray" />
+                    <Text style={style.nameComment}>Jose Ramirez. 07 Sep.2022</Text>
+
+                </View>
+
+                <View style={style.comment}>
+                    <Text style={style.comment}>
+                        Lorem ipsum dolor sit, amet 😄😄😄 adipisicing elit.
+                        Nihil 😄😄 provident distinctio aut. Inventore, 😄😄
+                        nihil. Repudiandae ex hic 😄😄 vero esse, aliquid nobis
+                        tenetur quasi laboriosam! Aliquid, doloremque impedit!
+                    </Text>
+                    <View style={style.lines}>
+                    </View>
+                </View>
+
+                <View style={style.people}>
+                    <Ionicons style={style.peopleComments} name="person-circle-outline" size={24} color="gray" />
+                    <Text style={style.nameComment}>Jose Ramirez. 07 Sep.2022</Text>
+                </View>
+                <View style={style.comment}>
+                    <Text style={style.comment}>
+                        Lorem ipsum dolor sit, amet 😄😄😄 adipisicing elit.
+                        Nihil 😄😄 provident distinctio aut. Inventore, 😄😄
+                        nihil. Repudiandae ex hic 😄😄 vero esse, aliquid nobis
+                        tenetur quasi laboriosam! Aliquid, doloremque impedit!
+                    </Text>
+                    <View style={style.lines}>
+                    </View>
+                </View>
+                <View style={style.people}>
+                    <Ionicons style={style.peopleComments} name="person-circle-outline" size={24} color="gray" />
+                    <Text style={style.nameComment}>Jose Ramirez. 07 Sep.2022</Text>
+                </View>
+                <View style={style.comment}>
+                    <Text style={style.comment}>
+                        Lorem ipsum dolor sit, amet 😄😄😄 adipisicing elit.
+                        Nihil 😄😄 provident distinctio aut. Inventore, 😄😄
+                        nihil. Repudiandae ex hic 😄😄 vero esse, aliquid nobis
+                        tenetur quasi laboriosam! Aliquid, doloremque impedit!
+                    </Text>
+                    <View style={style.lines}>
+                    </View>
+                </View>
+
+            </View>
         </ScrollView>
     )
 }
@@ -169,6 +132,8 @@ const style = StyleSheet.create({
         fontSize: 22,
     },
     inputsIcons: {
+        paddingLeft: 20,
+        paddingRight: 10,
         position: "absolute",
         color: "#A2AABB",
         top: 4,
@@ -196,6 +161,32 @@ const style = StyleSheet.create({
         borderColor: '#4B576B',
     },
     comment: {
+        paddingStart: 20,
+        paddingEnd: 20,
+        color: '#FFF',
+        textAlign: 'center',
+        fontSize: 15,
+
+    },
+    lines: {
+        borderBottomWidth: 1,
+        borderBottomColor: '#FFFFFF'
+
+    },
+    people: {
+        flexDirection: 'row',
+        padding: 15
+
+    },
+    peopleComments: {
+        fontSize: 40,
+        color: 'gray',
+
+    },
+    nameComment: {
+        fontSize: 20,
+        color: 'white',
+        paddingStart: 20
 
     }
 
